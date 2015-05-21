@@ -1,0 +1,96 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+#dl-headnav.navbar{
+    background: #FFF !important;
+}
+.navbar-toggle .icon-bar{
+    background: #069;
+}
+.navbar-brand{
+    padding: 5px;
+    height: 80px;
+}
+#footer-nav{
+    background: #222425 !important;
+    line-height: 37px;
+    color: #FFF;
+    font-family: "微软雅黑";
+}
+#footer-nav.navbar .container, #footer-logo.navbar .container{
+    background: none !important;
+}
+#footer-nav.navbar{
+    margin-bottom: 0;
+}
+#footer-nav .navbar-nav > li > a{
+     color: #e7e7e7 !important;
+    font-size: 16px;
+}
+#footer-nav .nav > li > a:hover{
+    color: #ffae00 !important;
+    background: none !important;
+}
+#footer-logo{
+    background: #616161 !important;
+    font-size: 15px;
+    font-family: "微软雅黑","宋体","Aria";
+    margin-bottom: 0;
+}
+#footer-nav.navbar, #footer-logo.navbar{
+    border-radius: 0;
+}
+#dl-nav.container{
+        background: none !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 0 20px;
+}
+#myCarousel{
+    margin-top:51px;
+}
+
+.readmore.btn.btn-primary{
+    position: absolute;
+    bottom: 0;
+    background: none;
+    right: 10px;
+    color:#A96363;
+    border-color: #D3D5D7;
+    padding: 6px;
+    
+    
+}
+
+.link2{
+    padding-top: 20px;
+}
+.link2 ul{
+    margin-left: 80px;
+}
+.link2 .navbar-nav>li>a{
+    color: #FFf !important;
+    font-size: 12px;
+}
+.link2 .navbar-nav>li>a:hover{background: none; text-decoration: underline;}
+
+div.copyright{
+    margin-left: 80px;
+    color: #000;
+    font-size: 12px;
+}
+
+#dl-nav h2{
+    
+    font-family: "微软雅黑";
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    font-size: 215%;
+    color: #FFF;
+    line-height: 40px;   
+}
+.contact{
+    margin-top: 145px;
+}

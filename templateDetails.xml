@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	method="upgrade" 
+    client="site">
+	<name>dl-rwd</name>	
+	<creationDate>April 2015</creationDate>
+	<author>Danny Li</author>
+	<authorEmail>dannyli@chinapress.net</authorEmail>
+	<copyright>Copyright 2015, dl-rwd</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <version>1.0.0</version>
+    <description>Template developed N Designed by Danny Li @v1.0.0</description>
+    
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>favicon.ico</filename>
+        <filename>index.html</filename>
+        <folder>css</folder>
+        <folder>blocks</folder>
+        <folder>fonts</folder>
+        <folder>html</folder>
+        <folder>imgs</folder>
+        <folder>js</folder>
+    </files>
+    <positions>
+        <position>menu</position>
+     <!-->   <position>top-login</position>  -->
+        <position>showcase</position>
+        <position>jumbotron</position>
+        <position>block1</position>
+        <position>block2</position>
+        <position>block3</position>
+        <position>block4</position>
+        <position>block5</position>
+        <position>block6</position>
+        <position>block7</position>
+        <position>block8</position>
+        <position>block9</position>
+        <position>block10</position>
+        <position>block11</position>
+        <position>block12</position>
+        <position>block13</position>
+        <position>block14</position>
+        <position>block15</position>
+        <position>block16</position>
+        <position>block17</position>
+        <position>block18</position>
+        <position>block19</position>
+        <position>block20</position>
+        <position>block21</position>
+        <position>left</position>
+		<position>right</position>
+        <position>footer</position>
+   </positions> 
+    
+    <config>
+        <fields name="param">
+            <fieldset name="general" label="General">
+                <field name="logo_text" 
+                       type="text" 
+                       label="Logo Text" 
+                       description="Enter your logo text"
+                       />
+                
+                 <field name="copyright_text" 
+                        type="text" 
+                        label="Copyright Text" 
+                        description="Enter your Copyright text"
+                        />
+            </fieldset>
+           
+        </fields>
+    </config>
+</extension>
