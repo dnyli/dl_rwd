@@ -1,12 +1,346 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
+
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  
+}
+.carousel-caption{
+    font-size: 100%;
+}
+
+.jumbotron{
+    padding: 28px 0;
+    margin-bottom: 10px;
+}
+#home-jumbotron{
+    margin-top: -120px;
+}
+#maincontent.container {
+    margin-top: 8%;
+}
+#dl-headnav.navbar{
+       
 }
 .navbar-toggle .icon-bar{
     background: #069;
 }
 .navbar-brand{
-    padding: 10px;
+    padding: 5px;
     height: 80px;
+}
+
+
+#footer-nav{
+    background: #222425 !important;
+    line-height: 37px;
+    color: #FFF;
+    font-family: "微软雅黑";
+}
+
+#footer-nav.navbar .container, #footer-logo.navbar .container{
+    background: none !important;
+    margin: 5px auto;
+    padding:  0;
+}
+#footer-nav.navbar{
+    margin-bottom: 0;
+}
+#footer-nav .navbar-nav > li > a{
+     color: #e7e7e7 !important;
+     font-size: 16px;
+     border-right: 1px solid #fff;     
+}
+
+#footer-nav .nav > li > a:hover{
+    color: #ffae00 !important;
+    background: none !important;
+}
+
+#footer-logo{
+    background: #616161 !important;
+    font-size: 15px;
+    font-family: "微软雅黑","宋体","Aria";
+    margin-bottom: 0;
+}
+
+#footer-nav.navbar, #footer-logo.navbar{
+    border-radius: 0;
+    min-height: auto;
+}
+#dl-nav.container{
+        background: none !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 0 20px;
+}
+#homeCarousel{
+    margin-top: 57px;
+}
+
+.readmore.btn.btn-primary{
+    position: absolute;
+    bottom: 0;
+    background: none;
+    right: 10px;
+    color:#A96363;
+    border-color: #D3D5D7;
+    padding: 6px;   
+}
+/*footer2 with logo*/
+.link2{
+    padding-top: 20px;
+}
+.link2 ul{
+    margin-left: 80px;
+}
+.link2 ul li:first-child {
+    font-size: 13px;
+    padding: 15px 0;
+    color: #fff;
+}
+.link2 .navbar-nav>li>a{
+    color: #FFf !important;
+    font-size: 12px;
+}
+.link2 .navbar-nav>li>a:hover{
+    background: none; 
+    text-decoration: underline;
+}
+
+div.copyright{
+    margin-left: 80px;
+    color: #000;
+    font-size: 12px;
+    text-shadow: 1px -1px 1px #eee;
+}
+/*end footer2*/
+
+/*info page title*/
+#dl-nav h2{   
+    font-family: "微软雅黑";
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    font-size: 215%;
+    color: #FFF;
+    line-height: 40px;   
+}
+.contact{
+    margin-top: 145px;
+}
+/*top login*/
+input#modlgn-username.inputbox, input#modlgn-passwd.inputbox {
+    line-height:3px;
+}
+#login-form ul {
+    margin-bottom: 0;
+}
+#login-form label{
+    font-weight:normal;
+}
+#login-form p, #login-form ul li {      
+        padding: 0;
+        margin: 0 5px 0 5px;
+        
+}
+/*ePaper*/
+.pg-category-view{
+    width: 76% !important;
+    float: right;
+}
+
+.dl_epaper_menu{
+    width: 17%;
+    float: left;
+    margin-right: 10px;
+}
+
+.dl_epaper_menu .dtree{
+    font-size: 100%;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    border: 1px solid #eee;
+}
+
+.dl_epaper_menu .dTreeNode{
+    padding: 10px;
+    border-top: 1px solid #666;
+    width: 100%;
+}
+.phocagallery-box-file.pg-box-subfolder{
+    width: 18.84% !important;
+}
+.highslide-container {
+    z-index: 1030 !important;
+}
+.highslide img{
+    width: 100%;
+}
+/*End epaper*/
+
+.glyphicon{
+    top: -15px;
+    font-size: 20px;
+}
+
+@media (max-width:768px){
+    #maincontent{
+        width: auto;
+    }
+    .dl-topbar{
+        display:none;
+    }
+    /*epaper*/
+    
+    .pg-category-view{
+        width: 99% !important;
+    }
+    .phocagallery-box-file.pg-box-subfolder, .phocagallery-box-file.pg-box-image{
+        width: 100% !important;
+        border-radius: 5px;
+    }
+    img.pg-image{
+        width: 100%;
+    }
+    /*login*/
+    #login-form {
+        margin-top: 55px;
+    }
+    #login-form p, #login-form ul li{
+        display: block;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    /*epaper*/
+    #maincontent {
+        width: 750px;
+    }
+    #phocagallery .phocagallery-box-file, .phocagallery-box-file{
+        width: 48% !important;
+    }
+    .pg-category-view{
+        width: 76.9% !important;
+    }
+    .dl_epaper_menu .dTreeNode{
+        width: 100%;
+    }
+     .dl_epaper_menu{
+        width: 21%;
+    }
+    
+    /*login*/
+        #login-form {
+            font-size: 12px;
+            position: fixed;
+            margin-left: 40%;
+            z-index: 1030;      
+    }
+    #login-form p, #login-form ul li{
+        display: inline-block;       
+    }
+    ul#forgot {
+        margin: 9px 0;
+    }
+    ul#forgot li{
+        display: inline;
+    }
+    #login-form ul, #login-form fieldset{
+        float: left;
+    }
+    /*info-pg-top-navigation*/
+    #dl-nav .navbar-left{
+        margin-left: 300px;
+        font: 16px/48px "微软雅黑";
+        margin-top: 26px;
+    }
+    #dl-nav .navbar-nav>li>a{
+        padding: 5px 12px;
+    }
+  .nav>li>a:focus, .nav>li>a:hover{
+      background: #b60005;
+      color: #FFF !important;
+  }
+    #dl-nav .navbar-nav>li{
+        margin-right: 8px;
+    }
+    .dl-topbar{
+        background: #616161;
+        height: 10px;
+        width: 100%;
+        position: fixed;
+        top:0;
+        z-index: 1035;
+    }
+    .dl_article_page{
+    margin-top: 150px;
+}
+    
+    #dl-nav .navbar-collapse.collapse{
+        background: url(../imgs/navbar1170x68.png) no-repeat scroll center 0 / 100% auto;  
+        
+        height: 68px !important;
+    } 
+ 
+    .navbar > .container .navbar-brand{
+         margin: 0 0 25px 31px;   
+        }
+    
+    #dl-nav .navbar-brand>img{
+        margin-top: 22px;
+    }
+    
+     #dl-nav h2 {
+        float: left;
+    }
+    #dl-nav .navbar-header{
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+        float:none;
+        height: 118px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 97.79%;
+    
+    }
+  /*footer*/  
+    #footer-nav ul{
+        width: 85.9%;
+        margin: 5px auto;
+        float: none;
+    }
+
+    #footer-nav .nav > li > a{
+        padding: 0px 40px;
+    
+    }
+
+    #footer-nav.navbar-nav>li{ 
+        border-left: 1px solid #fff;
+    }
+    
+    /*epaper */
+   
+   
+}
+
+@media (min-width:992px) {
+    #maincontent {
+         width:970px;}
+}
+
+@media (min-width: 1200px) {
+    #maincontent {
+        width: 1170px;
+    }
+    #phocagallery .phocagallery-box-file, .phocagallery-box-file{
+        width: 23.9% !important;
+        border-radius: 5px;
+    }
+    .pg-category-view{
+        width: 80.9% !important;
+    }
+    .dl_epaper_menu{
+        width: 16%;
+    }
 }
