@@ -71,7 +71,7 @@ body {
         background: none !important;
         margin-left: auto;
         margin-right: auto;
-        padding: 0px 0 20px;
+        padding: 0px 0 0px;
 }
 #homeCarousel{
     margin-top: 57px;
@@ -126,7 +126,7 @@ div.copyright{
     line-height: 40px;   
 }
 .contact{
-    margin-top: 145px;
+    margin-top: 0;
 }
 /*top login*/
 input#modlgn-username.inputbox, input#modlgn-passwd.inputbox {
